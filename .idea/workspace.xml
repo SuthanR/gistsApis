@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="08b0fc7d-6d0e-4217-b610-b6bc17d9f96d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testSuite/extendedHappyflow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSuite/extendedHappyflow.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testSuite/happyFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSuite/happyFlow.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,10 +30,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testSuite/happyFlow.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+            <state relative-caret-position="646">
+              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testSuite/extendedHappyflow.feature">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -45,6 +51,7 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/testSuite/functional.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/testSuite/extendedHappyflow.feature" />
         <option value="$PROJECT_DIR$/src/test/java/testSuite/happyFlow.feature" />
       </list>
     </option>
@@ -59,43 +66,6 @@
       </expand>
       <select />
     </treeState>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_apache_0_9_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_core_0_9_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_junit4_0_9_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__de_siegmar_fastcsv_1_0_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__info_picocli_picocli_3_0_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_12_ea_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_12_ea_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_12_ea_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_12_ea_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_12_ea_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_12_ea_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_18.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
@@ -175,7 +145,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: happyFlow">
+  <component name="RunManager" selected="Cucumber java.Feature: extendedHappyflow">
+    <configuration name="Feature: extendedHappyflow" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/testSuite/extendedHappyflow.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: extendedHappyflow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: happyFlow" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/testSuite/happyFlow.feature" />
@@ -232,25 +220,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: get all users and then get the first user by id (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/testSuite/happyFlow.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="test" />
-      <option name="NAME_FILTER" value="^get all users and then get the first user by id$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^get all users and then get the first user by id$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: get all users and then get the first user by id" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/testSuite/happyFlow.feature" />
@@ -272,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: extendedHappyflow" />
         <item itemvalue="Cucumber java.Feature: happyFlow" />
         <item itemvalue="Cucumber java.Scenario: Update the existing file with new content" />
         <item itemvalue="Cucumber java.Scenario: Create the gists and retrieve the same gists file" />
         <item itemvalue="Cucumber java.Scenario: " />
-        <item itemvalue="Cucumber java.Scenario: get all users and then get the first user by id (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -294,12 +263,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__get_all_users_and_then_get_the_first_user_by_id - 2020.04.19 at 21h 35m 42s.xml">
-      <configuration name="Scenario: get all users and then get the first user by id" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__get_all_users_and_then_get_the_first_user_by_id - 2020.04.19 at 21h 37m 44s.xml">
-      <configuration name="Scenario: get all users and then get the first user by id" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__get_all_users_and_then_get_the_first_user_by_id_(1) - 2020.04.19 at 21h 39m 55s.xml">
       <configuration name="Scenario: get all users and then get the first user by id (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -324,12 +287,18 @@
     <history-entry file="Scenario__Update_the_existing_file_with_new_content - 2020.04.21 at 21h 39m 40s.xml">
       <configuration name="Scenario: Update the existing file with new content" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__happyFlow - 2020.04.21 at 21h 42m 06s.xml">
+      <configuration name="Feature: happyFlow" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__extendedHappyflow - 2020.04.22 at 12h 03m 29s.xml">
+      <configuration name="Feature: extendedHappyflow" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,10 +349,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testSuite/extendedHappyflow.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testSuite/happyFlow.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        <state relative-caret-position="646">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
         </state>
       </provider>
     </entry>

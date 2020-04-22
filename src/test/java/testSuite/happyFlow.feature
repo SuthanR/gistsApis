@@ -7,7 +7,7 @@ Feature: As a user of the Github gists, I would like to do a basic HTTP request 
 
   Background:
     * url 'https://api.github.com/'
-    * header Authorization = 'Bearer 654f23c3c1351528a7505c393e58d147b22e3913'
+    * header Authorization = 'Bearer xyz'
     Given path 'gists'
     When method get
     Then status 200
@@ -35,7 +35,7 @@ Feature: As a user of the Github gists, I would like to do a basic HTTP request 
 """
     Given path 'gists'
     And request payload
-    And header Authorization = 'Bearer 654f23c3c1351528a7505c393e58d147b22e3913'
+    And header Authorization = 'Bearer xyz'
     When method post
     Then status 201
 
@@ -49,7 +49,7 @@ Feature: As a user of the Github gists, I would like to do a basic HTTP request 
 
     Given path '<what>' , <who>
     And param since = <when>
-    And header Authorization = 'Bearer 654f23c3c1351528a7505c393e58d147b22e3913'
+    And header Authorization = 'Bearer xxx'
     And method get
     Then status 200
 
@@ -77,13 +77,13 @@ Feature: As a user of the Github gists, I would like to do a basic HTTP request 
 """
     Given path 'gists/' , vagh[0].id
     And request payload2
-    And header Authorization = 'Bearer 654f23c3c1351528a7505c393e58d147b22e3913'
+    And header Authorization = 'Bearer xyz'
     And method patch
     Then status 200
 
   Scenario: Delete the existing gists file
 
     Given path 'gists/' , vagh[0].id
-    And header Authorization = 'Bearer 654f23c3c1351528a7505c393e58d147b22e3913'
+    And header Authorization = 'Bearer xyz'
     When method delete
     Then status 204
