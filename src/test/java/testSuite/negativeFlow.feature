@@ -2,7 +2,7 @@ Feature: As part of this feature,limited & possible negative flows are tested
 
   Background:
     * url 'https://api.github.com/'
-    * header Authorization = 'Bearer c97b04ffb33a682eafd8b52e2f5f350d30fff1e6'
+    * header Authorization = 'Bearer xyz'
 
   Scenario: Request the valida url with incorrect request method
 
@@ -39,13 +39,13 @@ Feature: As part of this feature,limited & possible negative flows are tested
 """
     Given path 'gists'
     And request payload
-    And header Authorization = 'Bearer c97b04ffb33a682eafd8b52e2f5f350d30fff1e6'
+    And header Authorization = 'Bearer xyz'
     When method post
     Then status 422
 
   Scenario: Delete the gists invalid authorization token
 
     Given path 'gists/e41eb83201089eb196ec8599f2b54140'
-    * header Authorization = 'Bearer c974ffb33a682eafd8b52e2f5f350d30fff1e6'
+    * header Authorization = 'Bearer xyz'
     And method delete
     Then status 401
