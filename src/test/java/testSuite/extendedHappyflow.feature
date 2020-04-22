@@ -2,7 +2,7 @@ Feature: As part of this feature , minimum required possible ways to validate th
 
   Background:
     * url 'https://api.github.com/'
-    * header Authorization = 'Bearer 654f23c3c1351528a7505c393e58d147b22e3913'
+    * header Authorization = 'Bearer xyz'
 
     Given path 'gists'
     When method get
